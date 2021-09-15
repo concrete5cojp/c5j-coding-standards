@@ -14,4 +14,3 @@
 - Write down the changes summary, and the steps to test in the PR description.
 - When your reviewer suggests a fix or example code don't rely on it. You should write the actual code from that idea. Also don't hesitate to share if you have any better solution/idea.
 
-### DON'T:
