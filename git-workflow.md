@@ -8,9 +8,11 @@ Branch | Server | Comments
 `staging` | Staging | Don't commit directly to `staging`. Merge `release/x.x.x` to `staging` and test the changes.
 `develop` | Development | Feel free to deploy your `fix`/`feature` to `develop` and test the changes.
 `release/x.x.x` | To make a stable release | Use [semantic versioning](https://semver.org/). Create a new release branch from the previous `release/x.x.x` or `master`. Make sure to [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) after release.
+`fix/issue_number` | To make a fix | Create a new branch from the `master` or latest `release/x.x.x`. Test on `develop` and make PR against upcoming release branch.
 `hotfix/issue_number` | To make a hotfix | Create a new branch from the `master`. Follow the project specific git flow to deploy it.
 `feature/issue_number` | To work on new feature | Create a new branch from the `master` or latest `release/x.x.x`. Test on `develop` and make PR against upcoming release branch.
-`fix/issue_number` | To make a fix | Create a new branch from the `master` or latest `release/x.x.x`. Test on `develop` and make PR against upcoming release branch.
+`feature/feature_name` | When you have sub issues | Make `feature/feature_name`as the main branch. And create PR against that branch from separate `issue/issue_number` branches.
+
 
 For more, visit http://nvie.com/posts/a-successful-git-branching-model/
 
@@ -45,7 +47,7 @@ For more, visit http://nvie.com/posts/a-successful-git-branching-model/
 - Diff everything before apply
 - Commit related changes
 - Commit often
-- Don't commit half done work
+- Don't commit half done work or merge conflicts
 - Test before you commit
 - **Write good commit message**
 - Try to avoid `git push`, and use `git push origin branch`
