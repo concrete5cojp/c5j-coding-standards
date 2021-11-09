@@ -32,6 +32,7 @@ The followings are the basic requirements when you make a package-
 - Sanitize output variables. See [Security & XSS Protection](security.md).
 - Add a [confirmation dialog](https://documentation.concrete5.org/tutorials/how-to-create-alert-notifications-and-modals) to non-returnable actions.
 - Try to keep your `controllers` and `views` slim as much as possible. Don't hesitate to create a new class or element. Use [Traits](https://www.php.net/manual/en/language.oop5.traits.php) to avoid code repeat.
+- Please use [semantic versioning](https://semver.org/).
 - Add [README.md](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-readmes) & [CHANGELOG.md](https://changelog.md) files. You may use [https://www.makeareadme.com](https://www.makeareadme.com) to make a README file. And [https://keepachangelog.com](https://keepachangelog.com) to make a changelog.
 - Don't use aliases in controller.
 - Don't use [deprecated codes](https://documentation.concrete5.org/developers/appendix/deprecated-code-reference-ongoing).
