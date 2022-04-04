@@ -38,6 +38,7 @@ The followings are the basic requirements when you make a package-
 - Don't use [deprecated codes](https://documentation.concrete5.org/developers/appendix/deprecated-code-reference-ongoing).
 - Follow the [style guide](https://documentation.concrete5.org/developers/appendix/style-guide).
 - Write PHP codes with updated syntax based on the project version compatibility. e.g., Use [Type Declarations](https://www.php.net/manual/en/language.types.declarations.php) as much as possible. You may check [this list](https://mlocati.github.io/articles/php-type-hinting.html) to know about PHP version compatibility.
+- Use `md_` as a prefix of our packages handle.
 
 
 ### 👉[Block Types](https://documentation.concrete5.org/developers/working-with-blocks)
