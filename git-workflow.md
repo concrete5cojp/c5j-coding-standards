@@ -1,5 +1,7 @@
 # Git Workflow
 
+![Git Wokflow](_media/git-workflow.png)
+
 ## Branching Rules
 
 Branch | Server | Comments
